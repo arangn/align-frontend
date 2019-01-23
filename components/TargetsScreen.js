@@ -35,15 +35,6 @@ const targetOptions = [
         value: 'Shoulders'
     },
     {
-        label: 'triceps',
-        value: 'Triceps'
-    },
-    {
-        label: 'biceps',
-        value: 'Biceps'
-    },
-
-    {
         label: 'abdominals',
         value: 'Abdominals'
     }
@@ -68,7 +59,7 @@ export default class TargetsScreen extends Component {
       tempTargetsList.push(element.label)
     })
     this.setState({targets: tempTargetsList});
-    console.log('state', this.state.targets, tempTargetsList)
+    // console.log('state', this.state.targets, tempTargetsList)
     this.props.navigation.navigate('Loading', {
       practice: practice,
       targets: tempTargetsList

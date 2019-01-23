@@ -11,7 +11,7 @@ align-frontend is the React Native frontend for the Align app
 5. `brew install watchman`
 
 ## Quick start
-1. Clone this repo
+1. `git clone https://github.com/arangn/align-frontend.git`
 2. Open two terminal windows- in the first, run:
 ```
 npm install
